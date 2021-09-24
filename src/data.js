@@ -826,7 +826,7 @@ export default [
     fields: {
       codeUrl: "https://github.com/Oyeleye/Music-store-startup-page",
       serviceUrl:"https://music-web-79cfc.web.app/",
-      name: "Financial Advice",
+      name: "Property Ladder",
       slug: "family-deluxe",
       type: "family",
       price: 500,

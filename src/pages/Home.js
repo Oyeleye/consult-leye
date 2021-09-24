@@ -25,7 +25,7 @@ function Home () {
          <NavBar />
          <BlueNavbar />
          <Hero > 
-            <Banner   title='OYELEYE OYEDAYO' subtitle='delighted to serve you'>
+            <Banner   title='CONSULT LEYE' subtitle='delighted to serve you'>
                <Link to='/services' data-aos='fade-up' className='btn-primary'>
                   See Services
                </Link>

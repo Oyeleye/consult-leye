@@ -48,12 +48,12 @@ export default function Navbar() {
                       <Link to='./collaborate' title='Collaborate'>Collaborate</Link>
                     </li>
                     <li>
-                      <a href='https://github.com/Oyeleye' >
+                      <a href='https://www.youtube.com/channel/UCCuK-TWKyAD7PkzA1Ki_O-w' >
                          <img src={youtubelogo} alt='My Portfolio'/>
                       </a>   
                     </li>
                     <li>
-                      <a href='https://github.com/Oyeleye' >
+                      <a href='https://www.instagram.com/oxygeneleye/' >
                          <img src={instagramlogo} alt='My Portfolio'/>
                       </a>   
                     </li>

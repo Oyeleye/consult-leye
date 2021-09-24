@@ -7,6 +7,7 @@ import LanguageMenuDropdown from './LanguageMenuDropdown';
 import Clock from './Clock.js';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import { Link } from 'react-router-dom';
+import Dialog from './Dialog.js';
 
 export default function BlueNavbar() {
     const useStyles = makeStyles(theme => ({
@@ -16,6 +17,9 @@ export default function BlueNavbar() {
             fontWeight: '600',
             fontSize: '1rem',
         },
+        navLinks: {
+            cursor: 'pointer',
+        },           
         contact: {
             cursor: 'pointer',
         },
@@ -59,7 +63,7 @@ export default function BlueNavbar() {
                     <AddIcCallIcon className='blue-nav-icon'/>
                 </div>
                     <span className='blue-nav-links'>
-                        <a href='tel:+353'title = 'Please contact using other means e.g. chat or email, etc.' > +353 </a>
+                        <a className={classes.navLinks}> {<Dialog />} </a>
                         <Link onClick={scrollToBottom} className={classes.contact} title='Click to go to contact'>Contact</Link>
                     </span>
             </div>

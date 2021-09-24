@@ -8,13 +8,16 @@ import AddIcCallIcon from '@material-ui/icons/AddIcCall';
 import EmailIcon from '@material-ui/icons/Email';
 import { makeStyles } from '@material-ui/core/styles';
 import TextareaAutoSize from '@material-ui/core/TextareaAutoSize';
-
+import Dialog from './Dialog.js';
 
 
 export default function Contact() {
     const useStyles = makeStyles(theme => ({
         sentMsgStyle: {
             color: 'blue'
+        },
+        navLinks: {
+            cursor: 'pointer'
         }       
     }));
  
@@ -59,7 +62,7 @@ export default function Contact() {
                         <h3> Let's Talk / Send Email </h3>
                         <p className='contact-links'>
                             <AddIcCallIcon />
-                            <a href='tel:+353' title ='Please contact using other means e.g. chat or email, etc.' > +353 </a> 
+                            <a className={classes.navLinks} > {<Dialog/>} </a> 
                         </p>
                         <p className='contact-links'> 
                             <EmailIcon />
@@ -105,13 +108,13 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className='contact-logo'>
-                    <a href='https://github.com/Oyeleye' >
+                    <a href='https://www.youtube.com/channel/UCCuK-TWKyAD7PkzA1Ki_O-w' >
                          <img src={youtubelogo} alt='My Portfolio'/>
                     </a>   
                     <a href='https://www.linkedin.com/in/oyedayo-oyeleye-a985b9bb/' >
                          <img src={linkedin} alt='My Portfolio'/>
                     </a>
-                    <a href='https://www.linkedin.com/in/oyedayo-oyeleye-a985b9bb/' >
+                    <a href='https://www.instagram.com/oxygeneleye/' >
                          <img src={instagramlogo} alt='My Portfolio'/>
                     </a>
                 </div>
