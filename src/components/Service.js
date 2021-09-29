@@ -19,7 +19,7 @@ export default function Service( { service } ) {
                     View
                 </a>
                 <a href={`${serviceUrl}`} className='btn-primary  project-link2'>
-                    Learn More
+                    More
                 </a>
             </div>
             <p className='project-info'>
