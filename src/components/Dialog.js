@@ -72,7 +72,7 @@ function App() {
     const UpdateDialog2 = () => {
 		return(
 			<Typography className={classes.updateDialog2}
-				variant='h4'>Due to high volume of calls and privacy, please contact via other means on this website, e.g. chat, email, etc. Thanks!
+				variant='h4'>Due to high volume of calls, please contact via other means on this website, e.g. chat, email, etc. Thanks!
 			</Typography>);
     };
 
