@@ -1,8 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import githublogo from '../images/githublogo.png';
+//import githublogo from '../images/githublogo.png';
 import linkedin from '../images/linkedin.png';
-
+import youtubelogo from '../images/youtubelogo.png';
+import instagramlogo from '../images/instagramlogo.png';
 
 
 export default function SmallNavbar() {
@@ -25,19 +26,19 @@ export default function SmallNavbar() {
                       <Link to='./collaborate'>Collaborate</Link>
                     </li>
                     <li>
-                      <a href='https://github.com/Oyeleye' >
-                         <img src={githublogo} alt='My Portfolio'/>
-                      </a>   
+                      <a href='https://www.youtube.com/channel/UCCuK-TWKyAD7PkzA1Ki_O-w' >
+                         <img src={youtubelogo} alt='My Portfolio'/>
+                      </a> 
+                    </li>
+                    <li>
+                    <a href='https://www.instagram.com/oxygeneleye/' >
+                         <img src={instagramlogo} alt='My Portfolio'/>
+                      </a> 
                     </li>
                     <li>
                       <a href='https://www.linkedin.com/in/oyedayo-oyeleye-a985b9bb/' >
                          <img src={linkedin} alt='My Portfolio'/>
                       </a>   
-                    </li>
-                    <li className='smallnav-links2'>
-                      <Link to='./'>En</Link> 
-                      <Link to='./'>Fi</Link>
-                      <Link to='./'>De</Link>
                     </li>
                 </ul>
              </div>   
