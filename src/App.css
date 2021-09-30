@@ -89,7 +89,7 @@ h6 {
 }
 /* end of globals */
 /* About */
-.about-center{
+.about-banner-center{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,6 +160,9 @@ h6 {
 }
 /* End of About */
 /*about-text*/
+.about-body {
+  background: linear-gradient(to left, #a0a5ec, #0704a5);
+}
 .about-text {
   text-align: center;
   justify-content: center;
@@ -168,7 +171,6 @@ h6 {
   color: var(--offWhite);
   font-size: 0.9em;
   margin-top: 5rem;
-  background: linear-gradient(to left, #a0a5ec, #0704a5);
 }
 /*end of about-text*/
 /*collaborate-text*/
