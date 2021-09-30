@@ -24,7 +24,7 @@ function About() {
                 <li></li>
             </ul>
             <div className='about-banner-center'>
-               <Banner title='About us' subtitle='Download Resume'>
+               <Banner title='About us' subtitle='Read Below'>
                    <Link to='/' data-aos='fade-up' className='btn-primary'>Return Home</Link>
                </Banner>
             </div>
