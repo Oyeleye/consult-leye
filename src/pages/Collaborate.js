@@ -37,7 +37,7 @@ export const Collaborate = () => {
             </Hero>
             <div className='links'>
                 <Button variant='contained' className={classes.root} href='https://docs.google.com/document/d/1B9yvUT7O55_EVRIZqvGxOm2iv_FVWQpe0wBPJakVAKQ/export?format=pdf'>
-                    download terms and conditions
+                    download resume
                 </Button>
             </div>
             <div className='collaborate'>
