@@ -171,6 +171,21 @@ h6 {
   background: linear-gradient(to left, #a0a5ec, #0704a5);
 }
 /*end of about-text*/
+/*collaborate-text*/
+.collaborate {
+  justify-content: center;
+  margin: 0 4rem;
+  font-size: 0.9em;
+  margin-top: 5rem;
+  line-height: 2;
+}
+.collaborate-header{
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+/*end of collaborate-text*/
 /* Navbar */
 .navbar {
   position: fixed;
