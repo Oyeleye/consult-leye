@@ -15,6 +15,7 @@ const useStyles = makeStyles({
 		textAlign: 'center', 
 		backgroundColor: 'yellow',
     },
+	/*
     typographyStyleA: {
         color: '#012161',
     },
@@ -23,14 +24,23 @@ const useStyles = makeStyles({
 		fontWeight: 'bold',
 		fontSize: '4rem' 
 	},
+	*/
 	dialogTitle: {
         color: '#084bd3',
 	},
 	updateDialog1: {
-		color: '#084bd3'
+		color: '#0c6ac6',
+		fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+		fontSize: '1.5em',
+		lineHeight: '1',
+		marginBottom: '1em'
 	},
 	updateDialog2: {
-		color: 'orange'
+		color: '#222',
+		fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+		fontSize: '1.5em',
+		lineHeight: '1',
+		marginBottom: '1em'
 	},
 	navbarTypography: {
 		fontWeight: 'bold'
