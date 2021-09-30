@@ -27,7 +27,7 @@ export default function Portfolio () {
                             <h6>Financial Education</h6>
                             <p>We recently acquired our first property (a new build 3 bedroom in Ireland) in our 20s. To help you work towards your journey of financial independence, we can organize a 121 session where you learn the following:</p>
                             <p>Saving towards buying a house</p>
-                            <p>Explaining mortgage application process in-depth through our experience</p>
+                            <p>Explaining mortgage application process in details through our experience.</p>
                         </article>
                         <article className='portfolio'>
                             <span><FaMusic/></span>
@@ -39,7 +39,7 @@ export default function Portfolio () {
                         <article className='portfolio' >
                             <span><FaLaptop/></span>
                             <h6>WEB DEVELOPMENT</h6>
-                            <p>We can help you build your scalabe and maintainable web application.</p>
+                            <p>We can help you build your responsive and maintainable web application with the latest technologies in the tech industry.</p>
                         </article> 
                 </div>
             </section>
