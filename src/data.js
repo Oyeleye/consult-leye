@@ -883,8 +883,8 @@ export default [
       id: "4"
     },
     fields: {
-      codeUrl: "https://github.com/Oyeleye/Web-calculator",
-      serviceUrl:"https://web-calculator-c5155.firebaseapp.com/",
+      codeUrl: "https://beach-resort-7c171.web.app/",
+      serviceUrl:"https://github.com/Oyeleye",
       name: "Web Development",
       slug: "single-deluxe",
       type: "single",
