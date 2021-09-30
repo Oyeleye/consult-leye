@@ -173,7 +173,7 @@ h6 {
   margin-top: 5rem;
 }
 /*end of about-text*/
-/*collaborate-text*/
+/*collaborate*/
 .collaborate {
   justify-content: center;
   margin: 0 4rem;
@@ -187,7 +187,16 @@ h6 {
   line-height: 1;
   margin-bottom: 0.5em;
 }
-/*end of collaborate-text*/
+/*end of collaborate*/
+/*disclaimer*/
+.disclaimer {
+  justify-content: center;
+  margin: 0 4rem;
+  font-size: 0.75em;
+  margin-top: 5rem;
+  line-height: 2;
+}
+/*end of disclaimer*/
 /* Navbar */
 .navbar {
   position: fixed;
