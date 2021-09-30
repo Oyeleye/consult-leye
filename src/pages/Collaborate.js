@@ -40,6 +40,25 @@ export const Collaborate = () => {
                     download terms and conditions
                 </Button>
             </div>
+            <div className='collaborate'>
+                <p className='collaborate-header'> Our Ads: </p>
+                <p>Thanks for your interest in advertising on ConsultLeye / Oxygeneleye TV</p>
+                <p>We produce actionable and engaging content aimed at helping people live better lives.</p>
+                <p>Our audience is diverse and growing rapidly.</p>
+                <p>If you’re interested in knowing more, simply write me an email and ask for a Media Pack.</p>
+                <p>We will be happy to talk to you about the options.</p>
+                <p>Our content covers Education (Studying Abroad), Money Saving, Investing, Lifestyle and more.</p>
+                <br/>
+                <p className='collaborate-header'>Our Values:</p>
+                <p>This blog takes an Honest and Ethical approach to Money and explores how it can make our lives much better.</p>
+                <p>We take the content we expose to our readers very seriously and prioritise content that helps to add real value to people.</p>
+                <p>As such, we’ll politely decline any paid opportunities that simply do not complement what we do.</p>
+                <p>We can discuss various types of advertising or sponsorship, so simply get in touch and enquire.</p>
+                <p>Kindly email <a href='mailto:oxygeneleye@gmail.com'>oxygeneleye@gmail.com </a> if you have any questions or opportunities to work together.</p>
+                <p>Much appreciated!</p>
+                <p>Best,</p>
+                <p>Oyeleye</p>
+            </div>
         </>
    );
 }
