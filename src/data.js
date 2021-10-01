@@ -944,7 +944,7 @@ export default [
     fields: {
       codeUrl:"https://github.com/Oyeleye/guessingGameProject",
       serviceUrl:"https://guessing-game-24e47.web.app",
-      name: "Guessing game",
+      name: "Music production",
       slug: "presidential-room",
       type: "presidential",
       price: 600,
