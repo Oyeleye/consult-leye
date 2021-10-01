@@ -40,6 +40,7 @@ export default function Portfolio () {
                             <span><FaLaptop/></span>
                             <h6>WEB DEVELOPMENT</h6>
                             <p>We can help you build your responsive and maintainable web application with the latest technologies in the tech industry.</p>
+                            <p>With bachelor’s and 3 master’s degrees in Education and Technical disciplines from 3 different countries, as well as working for one of the biggest tech companies ever, we have got the right educational background, experiences and skills to educate and serve you.</p>
                         </article> 
                 </div>
             </section>
