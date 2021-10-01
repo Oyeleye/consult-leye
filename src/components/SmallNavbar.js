@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import linkedin from '../images/linkedin.png';
 import youtubelogo from '../images/youtubelogo.png';
 import instagramlogo from '../images/instagramlogo.png';
-
+import { MenuItem } from '@material-ui/core';
 
 export default function SmallNavbar() {
 
@@ -14,16 +14,16 @@ export default function SmallNavbar() {
             <div className='smallnav-center'>
                 <ul className='smallnav-links smallshow-nav'>
                     <li>
-                      <Link to='./'>Home</Link>
+                      <MenuItem component={ Link } to='./'>Home</MenuItem>
                     </li>
                     <li>
-                      <Link to='./services'>Services</Link>
+                      <MenuItem component={ Link } to='./services'>Services</MenuItem>
                     </li>
                     <li>
-                      <Link to='./about'>About</Link>
+                      <MenuItem component={ Link } to='./about'>About</MenuItem>
                     </li>
                     <li>
-                      <Link to='./collaborate'>Collaborate</Link>
+                      <MenuItem component={ Link } to='./collaborate'>Collaborate</MenuItem>
                     </li>
                     <li>
                       <a href='https://www.youtube.com/channel/UCCuK-TWKyAD7PkzA1Ki_O-w' >

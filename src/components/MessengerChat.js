@@ -6,7 +6,7 @@ export default function MessengerChat() {
         <div>
            <MessengerCustomerChat
                 pageId="<374493812610760>"
-                appId="434245837741855"
+                appId="386552396282653"
             /> 
         </div>
     )

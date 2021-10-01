@@ -35,6 +35,7 @@ export default function Navbar() {
                 </div>
 
                 {isOpen? <SmallHomeNavbar /> : '' }
+
                 <ul className='nav-links'>
                     <li>
                       <Link to='./' title='Home page'>Home</Link>

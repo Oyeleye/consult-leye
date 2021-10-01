@@ -59,7 +59,7 @@ function App() {
 	const menuOpen = Boolean(anchorEl);
 
 	const classes= useStyles();
-
+/*
 	const GameTypographyA = () => {
 		return( 
 			<Typography className={classes.typographyStyleA} variant='h4'>Colour Application</Typography>
@@ -71,7 +71,7 @@ function App() {
 			<Typography className={classes.typographyStyleB} variant='h4'>Oops! Game Over!!</Typography>
 		);
 	};
-	
+*/	
 	const UpdateDialog1 = () => {
         return(
 			<Typography className={classes.updateDialog1}

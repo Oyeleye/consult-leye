@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import linkedin from '../images/linkedin.png';
 import youtubelogo from '../images/youtubelogo.png';
 import instagramlogo from '../images/instagramlogo.png';
+import { Typography, Dialog, MenuItem} from '@material-ui/core';
 
 
 export default function SmallNavbar() {
@@ -16,23 +17,58 @@ export default function SmallNavbar() {
       top: document.documentElement.scrollHeight,
       behavior:'smooth'
     });
+      const [anchorEl, setAnchorEl] = React.useState(null);
+      const [dialogOpen, setDialogOpen] = React.useState(false);
+      const [dialogUpdate, setDialogUpdate] = React.useState(false);
+      const [textChange, setTextChange] = React.useState(false);
+      const [inputText, setInputText] = React.useState(false);
+    
+      const menuOpen = Boolean(anchorEl);
 
+    /*
+        const handleDialogUpdate = () => {
+            setDialogUpdate(true);
+      };
+      
+      const toggleTextUpdate = () => {
+        setTextChange(textChange=>!textChange);
+      };
+    */
+      const handleMenu = event => {
+        setAnchorEl(event.currentTarget);
+      };
+      const handleMenuClose = () => {
+        setAnchorEl(null);
+      };
+      
+      const openDialog = (event) => {
+        handleMenuClose(event);
+        setDialogOpen(true);
+      }
+      const closeDialog = (event) => {
+        setDialogOpen(false);
+      }
+      const handleInputText = (event) => {
+        setInputText(event.target.value);
+      }
+     
+        
     return (
         
-        <nav className='small-home-navbar' >
+        <nav className='small-home-navbar'	open={menuOpen} onClose={handleMenuClose} >
             <div className='smallnav-center'>
                 <ul className='smallnav-links smallshow-home-nav'>
                     <li>
-                      <Link to='./services'>Services</Link>
+                      <MenuItem component={ Link } to='./services'>Services</MenuItem>
                     </li>
                     <li>
-                      <Link to='./about'>About</Link>
+                      <MenuItem component={ Link } to='./about'>About</MenuItem>
                     </li>
                     <li>
-                      <Link to='./collaborate'>Collaborate</Link>
+                      <MenuItem component={ Link } to='./collaborate'>Collaborate</MenuItem>
                     </li>
                     <li>
-                      <Link to='./' onClick={scrollToBottom}>Contact</Link>
+                      <MenuItem component={ Link } to='./' onClick={scrollToBottom}>Contact</MenuItem>
                     </li>
                     <li>
                     <a href='https://www.youtube.com/channel/UCCuK-TWKyAD7PkzA1Ki_O-w' >
@@ -50,7 +86,9 @@ export default function SmallNavbar() {
                       </a>   
                     </li>
                 </ul>
-             </div>   
+             </div>
+             <Dialog onClose={closeDialog} open={dialogOpen}>
+				     </Dialog>	   
         </nav>
         
     )
