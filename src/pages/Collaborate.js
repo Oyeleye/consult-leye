@@ -50,7 +50,7 @@ export const Collaborate = () => {
                 <p>Our content covers Education (Studying Abroad), Money Saving, Investing, Lifestyle and more.</p>
                 <br/>
                 <p className='collaborate-header'>Our Values:</p>
-                <p>This blog takes an Honest and Ethical approach to Money and explores how it can make our lives much better.</p>
+                <p>This website takes an Honest and Ethical approach to providing useful information to make our lives much better.</p>
                 <p>We take the content we expose to our readers very seriously and prioritise content that helps to add real value to people.</p>
                 <p>As such, we’ll politely decline any paid opportunities that simply do not complement what we do.</p>
                 <p>We can discuss various types of advertising or sponsorship, so simply get in touch and enquire.</p>
