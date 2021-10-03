@@ -98,7 +98,7 @@ export default function Contact() {
                         </form>
                     </div>
                 </div>
-                <div className='disclaimer'>Disclaimer: Consult Leye or Oxygeneleye TV does not offer financial advice and is intended for educational and reference purposes only. Use of this site is entirely at your own risk. You should always carry out your own research and take specific professional advice.</div>
+                <div className='disclaimer'>Disclaimer: Consult Leye or Oxygeneleye TV does not offer financial advice or any other advice and is intended for educational and informational purposes only. Use of this site is entirely at your own risk. You should always carry out your own research and take specific professional advice.</div>
                 <div className='copyright'>
                     <div className=''>
                         Copyright © 2021 Oxygeneleye. All right reserved
