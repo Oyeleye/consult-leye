@@ -17,9 +17,9 @@ export default function BlueNavbar() {
             fontWeight: '600',
             fontSize: '1rem',
         },
-        navLinks: {
+        /* navLinks: {
             cursor: 'pointer',
-        },           
+        },    */       
         contact: {
             cursor: 'pointer',
         },
@@ -63,8 +63,9 @@ export default function BlueNavbar() {
                     <AddIcCallIcon className='blue-nav-icon'/>
                 </div>
                     <span className='blue-nav-links'>
-                        <a className={classes.navLinks}> {<Dialog />} </a>
+                        <Link> {<Dialog />} </Link>
                         <Link onClick={scrollToBottom} className={classes.contact} title='Click to go to contact'>Contact</Link>
+                        <a className={classes.navLinks} href='mailto:info@consultleye.com'>info@consultleye.com</a>
                     </span>
             </div>
 
