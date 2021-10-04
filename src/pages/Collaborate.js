@@ -54,7 +54,7 @@ export const Collaborate = () => {
                 <p>We take the content we expose to our readers very seriously and prioritise content that helps to add real value to people.</p>
                 <p>As such, we’ll politely decline any paid opportunities that simply do not complement what we do.</p>
                 <p>We can discuss various types of advertising or sponsorship, so simply get in touch and enquire.</p>
-                <p>Kindly email <a href='mailto:oxygeneleye@gmail.com'>oxygeneleye@gmail.com </a> if you have any questions or opportunities to work together.</p>
+                <p>Kindly email <a href='mailto:info@consultleye.com'>info@consultleye.com</a> if you have any questions or opportunities to work together.</p>
                 <p>Much appreciated!</p>
                 <p>Best,</p>
                 <p>Oyeleye</p>

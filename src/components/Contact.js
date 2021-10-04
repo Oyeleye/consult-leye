@@ -66,7 +66,7 @@ export default function Contact() {
                         </p>
                         <p className='contact-links'> 
                             <EmailIcon />
-                            <a href='mailto:oxygeneleye@gmail.com' > oxygeneleye@gmail.com </a>
+                            <a href='mailto:info@consultleye.com' >info@consultleye.com</a>
                         </p>
                         <div className='links'>
                             <Button variant='contained' href='https://docs.google.com/document/d/1fHASloM_VIq7_YudVRl78KQHKBQomEu1JvekbL8whjk/edit?usp=sharing/export?format=pdf'>
