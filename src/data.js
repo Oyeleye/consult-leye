@@ -824,7 +824,7 @@ export default [
       id: "12"
     },
     fields: {
-      codeUrl: "https://github.com/Oyeleye/Music-store-startup-page",
+      codeUrl: "https://youtu.be/KLc_rXaBt5s",
       serviceUrl:"https://www.instagram.com/homeofl_andt/?utm_medium=copy_link",
       name: "Property Ladder",
       slug: "family-deluxe",
