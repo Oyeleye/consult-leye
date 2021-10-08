@@ -365,7 +365,7 @@ export default [
     },
     fields: {
       codeUrl: "https://www.youtube.com/watch?v=Om7W4aKchmA&t=6s",
-      serviceUrl: "https://beach-resort-7c171.web.app",
+      serviceUrl: "https://youtu.be/tl91HGUmtGE",
       name: "university admissions",
       slug: "double-deluxe",
       type: "double",
@@ -595,7 +595,7 @@ export default [
     },
     fields: {
       codeUrl: "https://www.youtube.com/watch?v=HCzYYMKadNE&t=9s",
-      serviceUrl: "https://oyeleyeoyedayo.com",
+      serviceUrl: "https://youtu.be/_-30VA6eAYc",
       name: "Visa applications",
       slug: "double-deluxe",
       type: "double",
@@ -942,8 +942,8 @@ export default [
       id: "13"
     },
     fields: {
-      codeUrl:"https://github.com/Oyeleye/guessingGameProject",
-      serviceUrl:"https://guessing-game-24e47.web.app",
+      codeUrl:"",
+      serviceUrl:"",
       name: "Music production",
       slug: "presidential-room",
       type: "presidential",
