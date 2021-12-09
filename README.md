@@ -8,7 +8,7 @@
 
 ![consultleyeGif](https://user-images.githubusercontent.com/44131391/145453694-861eb0e9-78a1-4e2d-8395-30ccadebd8ba.gif)
 
-<img src='src/images/consultleyePic.jpg' title='consultleyePic'> 
+<img src='src/images/consultleyePic.png' title='consultleyePic'> 
 
 I installed 2 depencies: react icons and react router dom. I imported AlignRight from react icons, which I passed in a button and made it clickable (on click), when the app is used on a smaller screen or minimised, on a bigger screen. When my page is minised, the AlignRight icon appears and the nav links (pages) on my Navbar reduces to Home and Projects, while others are hidden. You can click the Align Right to toggle the 2 shown nav links.
 
