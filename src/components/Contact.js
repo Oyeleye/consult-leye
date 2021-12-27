@@ -46,7 +46,7 @@ export default function Contact() {
     }
     const MessageSent = () => {
         return(
-            <h2 className={classes.sentMsgStyle}>Fill the required field(s).</h2>
+            <h2 className={classes.sentMsgStyle}>Kindly fill in the required field(s).</h2>
         )
     }
     const handleSubmitMessage = () => {
