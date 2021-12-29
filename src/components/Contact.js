@@ -8,7 +8,7 @@ import AddIcCallIcon from '@material-ui/icons/AddIcCall';
 import EmailIcon from '@material-ui/icons/Email';
 import { makeStyles } from '@material-ui/core/styles';
 import TextareaAutoSize from '@material-ui/core/TextareaAutoSize';
-import Dialog from './Dialog.js';
+import Dialog from './Dialog';
 
 
 export default function Contact() {
@@ -51,8 +51,8 @@ export default function Contact() {
     }
     const handleSubmitMessage = () => {
         setSubmitMessage(true);
-
     }
+    
     const year = new Date().getFullYear();
 
     return (
@@ -63,7 +63,7 @@ export default function Contact() {
                         <h3> Let's Talk / Send Email </h3>
                         <p className='contact-links'>
                             <AddIcCallIcon />
-                            <a className={classes.navLinks} > {<Dialog/>} </a> 
+                            <p className={classes.navLinks} > {<Dialog/>} </p> 
                         </p>
                         <p className='contact-links'> 
                             <EmailIcon />
@@ -95,7 +95,7 @@ export default function Contact() {
                             
                             </TextareaAutoSize>
                             <br />
-                            <Button type='submit' onClick={handleSubmitMessage} color='primary' variant='contained'>Submit</Button>
+                            <Button type='submit' onClick={ handleSubmitMessage} color='primary' variant='contained'>Submit</Button>
                         </form>
                     </div>
                 </div>

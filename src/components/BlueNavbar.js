@@ -2,12 +2,12 @@
 import React from 'react'
 import AddIcCallIcon from '@material-ui/icons/AddIcCall';
 import { makeStyles } from '@material-ui/core/styles';
-import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
+//import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import LanguageMenuDropdown from './LanguageMenuDropdown';
-import Clock from './Clock.js';
-import AccessTimeIcon from '@material-ui/icons/AccessTime';
+//import Clock from './Clock.js';
+//import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import { Link } from 'react-router-dom';
-import Dialog from './Dialog.js';
+import Dialog from './Dialog';
 
 export default function BlueNavbar() {
     const useStyles = makeStyles(theme => ({
@@ -38,7 +38,7 @@ export default function BlueNavbar() {
     })); 
     const classes = useStyles();
     const [isOpen, setIsOpen] = React.useState(false);
-    const [clockOpen, setClockOpen] = React.useState(false);
+//    const [clockOpen, setClockOpen] = React.useState(false);
 
 
     const scrollToBottom = () => window.scrollTo({
@@ -52,10 +52,10 @@ export default function BlueNavbar() {
     const hideLanguage = () => {
         setIsOpen (false)
     }
-    const toggleClock = () =>{
+/*    const toggleClock = () =>{
         setClockOpen (clockOpen => !clockOpen);
     } 
-
+*/
     return (
         <nav className='blue-navbar'>
             <div className='blue-nav-center'>

@@ -1,11 +1,10 @@
 import React from 'react';
 //import './App.css';
-import { Typography, AppBar, Toolbar, IconButton, 
-    MenuItem, Menu, Button, Dialog, DialogActions, 
-    DialogTitle, TextField } 
+import { Typography, Button, Dialog, DialogActions, 
+    DialogTitle } 
 from '@material-ui/core/';
-import MenuIcon from '@material-ui/icons/Menu';
-import { Link } from 'react-router-dom';
+// import MenuIcon from '@material-ui/icons/Menu';
+// import { Link } from 'react-router-dom';
 
 import { makeStyles } from '@material-ui/styles';
 
@@ -50,13 +49,13 @@ const useStyles = makeStyles({
 
 
 function App() {
-	const [anchorEl, setAnchorEl] = React.useState(null);
+//	const [anchorEl, setAnchorEl] = React.useState(null);
 	const [dialogOpen, setDialogOpen] = React.useState(false);
 	const [dialogUpdate, setDialogUpdate] = React.useState(false);
-	const [textChange, setTextChange] = React.useState(false);
-	const [inputText, setInputText] = React.useState(false);
+//	const [textChange, setTextChange] = React.useState(false);
+//	const [inputText, setInputText] = React.useState(false);
 
-	const menuOpen = Boolean(anchorEl);
+//	const menuOpen = Boolean(anchorEl);
 
 	const classes= useStyles();
 /*
@@ -89,7 +88,7 @@ function App() {
     const handleDialogUpdate = () => {
         setDialogUpdate(true);
 	};
-	
+/*	
 	const toggleTextUpdate = () => {
 		setTextChange(textChange=>!textChange);
 	};
@@ -97,20 +96,24 @@ function App() {
 	const handleMenu = event => {
 		setAnchorEl(event.currentTarget);
 	};
-	const handleMenuClose = () => {
-		setAnchorEl(null);
+*/
+/*	
+    const handleMenuClose = () => {
+	//	setAnchorEl(null);
 	};
-	
+*/
 	const openDialog = (event) => {
-		handleMenuClose(event);
+	//	handleMenuClose(event);
 		setDialogOpen(true);
 	}
 	const closeDialog = (event) => {
 		setDialogOpen(false);
 	}
+	/*
 	const handleInputText = (event) => {
 		setInputText(event.target.value);
 	}
+	*/
 
 	return (
 		<>
@@ -123,7 +126,7 @@ function App() {
 				
 				<Dialog onClose={closeDialog} open={dialogOpen}>
 					<DialogTitle id="simple-dialog-title"> { dialogUpdate? <UpdateDialog2 /> : <UpdateDialog1 /> } </DialogTitle>
-					<DialogTitle id="simple-dialog-title" className={classes.dialogTitle}> { inputText } 
+					<DialogTitle id="simple-dialog-title" className={classes.dialogTitle}>  
                     </DialogTitle>
 					<DialogActions>
 						<Button variant="contained" onClick={closeDialog}>Exit</Button>

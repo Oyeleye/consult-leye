@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import defaultImg from '../images/defaultBcg.jpeg';
+//import { useEffect } from 'react';
 //import Aos from 'aos';
 import 'aos/dist/aos.css';
 

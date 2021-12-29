@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import linkedin from '../images/linkedin.png';
 import youtubelogo from '../images/youtubelogo.png';
 import instagramlogo from '../images/instagramlogo.png';
-import { Typography, Dialog, MenuItem} from '@material-ui/core';
+import { Dialog, MenuItem } from '@material-ui/core';
 
 
 export default function SmallNavbar() {
@@ -19,9 +19,9 @@ export default function SmallNavbar() {
     });
       const [anchorEl, setAnchorEl] = React.useState(null);
       const [dialogOpen, setDialogOpen] = React.useState(false);
-      const [dialogUpdate, setDialogUpdate] = React.useState(false);
-      const [textChange, setTextChange] = React.useState(false);
-      const [inputText, setInputText] = React.useState(false);
+//    const [dialogUpdate, setDialogUpdate] = React.useState(false);
+//    const [textChange, setTextChange] = React.useState(false);
+//      const [inputText, setInputText] = React.useState(false);
     
       const menuOpen = Boolean(anchorEl);
 
@@ -33,25 +33,29 @@ export default function SmallNavbar() {
       const toggleTextUpdate = () => {
         setTextChange(textChange=>!textChange);
       };
-    */
+    */  
+   /*
       const handleMenu = event => {
         setAnchorEl(event.currentTarget);
-      };
+      }; 
+    */
       const handleMenuClose = () => {
         setAnchorEl(null);
       };
-      
+    /*  
       const openDialog = (event) => {
         handleMenuClose(event);
         setDialogOpen(true);
       }
+    */
       const closeDialog = (event) => {
         setDialogOpen(false);
       }
+    /*
       const handleInputText = (event) => {
         setInputText(event.target.value);
       }
-     
+    */
         
     return (
         

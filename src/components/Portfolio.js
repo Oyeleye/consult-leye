@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Title from './Title';
-import { FaUserGraduate, FaServer, FaDatabase, FaMusic, FaLaptop, FaEuroSign} from 'react-icons/fa';
+import { FaUserGraduate, FaMusic, FaLaptop, FaEuroSign} from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
